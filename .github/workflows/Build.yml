@@ -23,7 +23,6 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
        - uses: actions/checkout@v4
-       - name: Execute Batch File
         run: 
           C:\Users\vboxuser\CI_Helper\CI_Helper.bat
        
