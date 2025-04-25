@@ -2,7 +2,7 @@
 
 name: CI
 runs-on:
-  self-hosted
+ - self-hosted
 
 # Controls when the workflow will run
 on:
