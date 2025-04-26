@@ -1,31 +1,20 @@
-# This is a basic workflow to help you get started with Actions
+name: Checkout and Run PowerShell Script
 
-name: Build
-
-# Controls when the workflow will run
 on:
-  # Triggers the workflow on push or pull request events but only for the "main" branch
   push:
-    branches: [ "Develop" ]
-  
+    branches:
+      - develop
 
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
-
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
-  build:
-    # The type of runner that the job will run on
+  run-powershell:
     runs-on: self-hosted
 
     steps:
-      # Step 1: Check out the repository
-      - name: Checkout repository
+      # Checkout the code from the repository
+      - name: Checkout Code
         uses: actions/checkout@v4
 
-      # Step 2: Run the batch file
-      - name: Run batch file
-        run: |
-          C:\users\vboxuser\CI_Helper\CI_Helper.bat
-        shell: cmd
+      # Run PowerShell script using its absolute path
+      - name: Run PowerShell Script
+        run: C:\users\vboxuser\CI_Helper\CI_helper.ps
+        shell: pwsh
