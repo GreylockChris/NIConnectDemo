@@ -15,7 +15,7 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v4
 
-      - name:
+      - name: Run LabVIEW VI
         Run: "C:\Program Files (x86)\National Instruments\LabVIEW 2024\LabVIEWCLI.exe" --operationName RunVI --viPath "C:\Users\vboxuser\desktop\CI_Helper.vi"
 
      
