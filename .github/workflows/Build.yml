@@ -15,4 +15,8 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v4
 
+      - name: Run Batch File
+        run: .\NIConnectDemo\CI_Helper.bat
+        
+
      
