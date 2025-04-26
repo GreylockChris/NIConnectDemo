@@ -1,4 +1,4 @@
-name: Checkout and Run PowerShell Script
+name: Build
 
 on:
   push:
