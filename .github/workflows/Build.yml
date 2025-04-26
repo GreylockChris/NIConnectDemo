@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  run-powershell:
+  Run-CI_Demo:
     runs-on: self-hosted
 
     steps:
