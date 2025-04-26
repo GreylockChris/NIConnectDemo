@@ -11,7 +11,13 @@ jobs:
     runs-on: self-hosted
 
     steps:
-      # Checkout the code from the repository
-      - name: Checkout Code
-        uses: actions/checkout@v4
+      # Step 1: Checkout the repository
+      - name: Checkout the code
+        uses: actions/checkout@v3
+
+      # Step 2: Run labview.exe
+      - name: Run LabVIEW
+        run: |
+          echo "Running LabVIEW"
+          labview.exe
      
