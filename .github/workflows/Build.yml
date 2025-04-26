@@ -14,7 +14,7 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v4
 
-      # Run PowerShell script using its absolute path
-      - name: Run PowerShell Script
-        run: C:\users\vboxuser\CI_Helper\CI_helper.ps
-        shell: pwsh
+      # Run Batch script using its absolute path
+      - name: Run Batch File
+        run: C:\users\vboxuser\CI_Helper\CI_helper.bat
+        shell: cmd
