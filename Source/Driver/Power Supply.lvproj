@@ -28,22 +28,22 @@
 				<Property Name="Bld_buildSpecName" Type="Str">PSU Driver PPL</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/Users/roebu/Demo PPLs</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Users/vboxuser/Demo PPLs</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{CCE5397C-EE62-4284-8625-3593208FED62}</Property>
 				<Property Name="Bld_version.build" Type="Int">1</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Power Suuply Driver.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/Users/roebu/Demo PPLs/Power Suuply Driver.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Users/vboxuser/Demo PPLs/Power Suuply Driver.lvlibp</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/Users/roebu/Demo PPLs</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Users/vboxuser/Demo PPLs</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{FF040D07-2BF7-436C-8997-D9C8FE2FA98F}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{D4B88723-1392-4CFA-BBB7-7C85D8FCAB61}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Power Supply Driver.lvlib</Property>
