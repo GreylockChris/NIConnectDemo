@@ -15,7 +15,4 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v4
 
-      # Run Batch script using its absolute path
-      - name: Run Batch File on local
-        run: CMD /C C:\\users\\vboxuser\\CI_Helper\\CI_helper.bat
-        shell: cmd
+     
