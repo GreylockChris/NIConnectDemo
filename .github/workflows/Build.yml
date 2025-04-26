@@ -1,0 +1,18 @@
+name: Build
+
+on:
+  push:
+    branches:
+      - develop
+  workflow_dispatch:
+
+jobs:
+  Run-CI_Demo:
+    runs-on: self-hosted
+
+    steps:
+      # Checkout the code from the repository
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+     
