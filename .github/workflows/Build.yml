@@ -15,8 +15,3 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v4
      
-      - name: Run LabVIEW
-        # run: "C:\Program Files (x86)\National Instruments\LabVIEW 2024\LabVIEWCLI.exe" --operationName RunVI --viPath "C:\Users\vboxuser\desktop\CI_Helper.vi"
-         run: echo "Starting the process..."
-        
-     
