@@ -43,7 +43,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{D4B88723-1392-4CFA-BBB7-7C85D8FCAB61}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{CD79F2E4-7272-4453-9C28-58F3488E9481}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Power Supply Driver.lvlib</Property>
